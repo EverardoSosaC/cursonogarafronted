@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios 1</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+
+    <form action="" autocomplete="on">
+      <fieldset>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Ingresa tu nombre"
+          readonly
+        />
+        <label for="nombre">nombre</label><br /><br />
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Ingresa tu apellido"
+          disabled
+        />
+        <label for="apellido">apellido</label><br /><br />
+        <input type="text" name="edad" id="edad" required />
+        <label for="edad">edad</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Que team eres? Team pro de Kong o team noob</legend>
+        <label for="king">Team King Kong</label>
+        <input type="radio" name="team" id="king" checked />
+        <label for="god">Team Godzilla</label>
+        <input type="radio" name="team" id="god" disabled />
+      </fieldset>
+
+      <fieldset>
+        <legend>De que eres mas?</legend>
+        <input type="checkbox" name="entre" id="pelis" />
+        <label for="pelis">Peliculas</label>
+        <input type="checkbox" name="entre" id="lib" />
+        <label for="lib">Libros</label>
+        <input type="checkbox" name="entre" id="series" />
+        <label for="series">Series</label>
+      </fieldset>
+
+      <fieldset>
+        <select name="pais" id="pais" size="2">
+          <option value="mx">Mexico</option>
+          <option value="ch">Chile</option>
+          <option value="arg" selected>Argentina</option>
+          <option value="gtm">Guatemala</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend></legend>
+        <label for="buscar">Busca tu informacion</label>
+        <input type="text" name="buscar" id="buscar" list="tipos" />
+        <datalist id="tipos">
+          <option value="Perro">Perro</option>
+          <option value="Perro">Perro</option>
+          <option value="Perro">Perro</option>
+          <option value="Perro">Perro</option>
+          <option value="Perro">Perro</option>
+        </datalist>
+      </fieldset>
+
+      <fieldset>
+        <input type="range" name="" id="" value="50" />
+      </fieldset>
+
+      <textarea
+        name="mensaje"
+        id="mensaje"
+        cols="50"
+        rows="6"
+        autofocus
+      ></textarea
+      ><br /><br />
+
+      <input type="password" name="" id="" /><br /><br />
+      <input type="color" name="" id="" /><br /><br />
+      <input type="date" name="" id="" /><br /><br />
+      <input type="datetime-local" name="" id="" /><br /><br />
+      <input type="email" name="" id="" /><br /><br />
+      <input type="file" name="" id=""><br><br>
+      <input type="month" name="" id=""><br><br>
+      <input type="number" name="" id="" min="20" max="100"><br><br>
+      <input type="tel" name="" id=""><br><br>
+      <input type="time" name="" id=""><br><br>
+      <input type="url" name="" id=""><br><br>
+
+      <input type="reset" value="reset" />
+      <input type="submit" value="submitxd" /><br /><br />
+    </form>
+  </body>
+</html>
