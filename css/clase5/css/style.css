@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 2rem;
+}
+
+div{
+    width: 33%;
+    background-color: cadetblue;
+    font-size: 1.2rem;
+    border: 5px dotted blueviolet;
+}
+
+p{
+    background-color: brown;
+}
