@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    
+
+    
+    color: darkblue;
+    border: 12px groove aqua;
+    padding: 15px;
+    margin: 15px;
+    
+}
+
+#uno{
+    margin: 15px 0px 25px 0px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: violet;
+    height: 50px;
+}
