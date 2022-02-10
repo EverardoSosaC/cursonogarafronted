@@ -1,0 +1,40 @@
+ul{
+    /*list-style-type: disclosure-open;*/
+    
+    list-style-position: inside;
+
+    list-style-image: url(../img/favicon.ico);
+}
+
+li{
+    background-color: yellowgreen;
+}
+
+#uno{
+    background-color: blueviolet;
+}
+
+a{
+    background-color: black;
+    color: white;
+}
+
+a:link{
+    background-color: blue;
+    color: white;
+}
+
+
+a:visited{
+    background-color: brown;
+    color: yellow;
+}
+
+a:hover{
+    background-color: cadetblue;
+}
+
+a:active{
+    background-color: darkgoldenrod;
+    color: red;
+}

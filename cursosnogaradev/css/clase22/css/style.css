@@ -1,0 +1,23 @@
+a{
+    color: white;
+    background-color: blueviolet;
+}
+
+a:link{
+    color: orange;
+}
+
+a:visited{
+    color: chartreuse;
+    background-color: brown;
+}
+
+a:hover{
+    color: lightcoral;
+    background-color: aqua;
+}
+
+a:active{
+    background-color: chocolate;
+    color: white;
+}
