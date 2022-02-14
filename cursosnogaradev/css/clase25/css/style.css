@@ -2,3 +2,13 @@ h1{
     background-color: aqua;
     color: #fff;
 }
+
+#imagen{
+    height: 3000px;
+    background-color: yellowgreen;
+    background-image: url(../img/favicon.ico);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    /*background-position: 300px 20px;
+    background-attachment: fixed;*/
+}
