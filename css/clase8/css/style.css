@@ -1,0 +1,7 @@
+section:first-child{
+    background-color: aqua;
+}
+
+section:last-child{
+    background-color: blueviolet;
+}
