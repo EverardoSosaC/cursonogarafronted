@@ -1,0 +1,23 @@
+body{
+    background-color: blueviolet;
+}
+
+
+h1{
+    background-color: aqua;
+    color: #fff;
+    
+}
+
+p{
+    background-color: brown;
+    color: #fff;
+    width: 50%;
+    height: 100px;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-y: auto; */
+    /* overflow-x: hidden; */
+    overflow: auto;
+}
